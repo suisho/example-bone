@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "beefy app.js:build.js -- -t hbsfy",
+    "start": "beefy app.js:build.js -- -t hbsfy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "backbone": "^1.1.2",
+    "backbone.marionette": "^2.3.1",
     "handlebars": "^2.0.0",
     "hbsfy": "^2.2.1",
-    "jquery": "^2.1.3",
-    "lodash": "^2.4.1",
-    "marionette": "0.0.0"
+    "jquery": "^1.9",
+    "lodash": "^2.4.1"
   }
 }
